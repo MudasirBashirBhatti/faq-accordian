@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+body{
+    overflow: hidden;
+    background: linear-gradient(180deg , var(--SoftViolet), var(--SoftBlue) );
+    width: 100vw;
+    height: 100vh;
+    font-family:var(--myFont);
+}
+@font-face {
+    font-family: KumbhSans;
+    src: url(./fonts/KumbhSans-VariableFont_wght.ttf);
+}
+:root{
+    /* font  */
+    --myFont:KumbhSans;
+
+    /* text  */
+    --VeryDarkDesaturatedBlue: hsl(238, 29%, 16%);
+    --SoftRed: hsl(14, 88%, 65%);
+
+    /* Background gradient: */
+    --SoftViolet: hsl(273, 75%, 66%);
+    --SoftBlue: hsl(240, 73%, 65%);
+
+    /* text  */
+    --VeryDarkGrayishBlue: hsl(237, 12%, 33%);
+    --DarkGrayishBlue: hsl(240, 6%, 50%);
+
+    /* divider  */
+    --LightGrayishBlue: hsl(240, 5%, 91%);
+}
+#parent{
+width: 800px;
+height: 400px;
+background-color: white;
+margin: auto;
+margin-top: 20%;
+border-radius: 20px;
+display: flex;
+}
+
+.leftSection{
+    overflow: hidden;
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.rightSection{
+    width: 50%;
+    height: 100%;
+}
+.leftSection .bottomImg img{
+    width: 165%;
+    position: absolute;
+    left: -325px;
+    bottom: -65px;
+}
+.secondImg img{
+    width: 100%;
+    position: absolute;
+    left: -65px;
+    bottom: 75px;
+}
+.wraper{
+    position: relative;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    margin-top: 20%;
+    border-radius: 20px;
+}
+
+
+.topImg{
+    position: absolute;
+    width: 182px;
+    left: -81px;
+    bottom: 99px;
+    z-index: 1;
+}
+.topImg img{
+    width: 170px;
+}
+.fullLine{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    color: var(--VeryDarkGrayishBlue);
+    font-weight: 400;
+    cursor: pointer;
+
+}
+hr{
+    margin: 1em 0;
+    width: 83%;
+    float: left;
+    color: var(--LightGrayishBlue);
+}
+.mainText{
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-top: 1.4em;
+    margin-bottom: .8em;
+}
+.small{
+    transition: .2s linear;
+}
+
+.small:hover{
+    color: var(--SoftRed);
+}
+.allAns{
+    display: none;
+    width: 300px;
+    font-size: .8rem;
+    color: var(--DarkGrayishBlue);
+    cursor: pointer;
+}
+.myTopWomanIllustration{
+    display: none;
+}
+.mobilePattern{
+    display: none;
+}

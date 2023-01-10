@@ -1,0 +1,118 @@
+@media screen and (max-width:936px){
+    body{
+        overflow: hidden;
+    }
+    #parent{
+        width: 600px;
+        height: 350px;
+    }
+    .wraper{
+        width: 600px;
+    }
+    .mainText {
+        margin-top: 1em;
+        margin-bottom: .4em;
+    }
+    .fullLine{
+        width: 90%;
+        font-size: .8rem;
+    }
+    hr{
+        width: 90%;
+    }
+    .rightSection{
+        width: 60%;
+    }
+    .leftSection .bottomImg img {
+        width: 193%;
+        left: -283px;
+        bottom: -48px;
+    }
+    .secondImg img {
+        width: 104%;
+        left: -44px;
+    }
+    .topImg{
+        left: -50px;
+        bottom: 151px;
+    }
+    .topImg img{
+        width: 111px;
+    }
+    .myTopWomanIllustration{
+        display: none;
+    }
+    .mobilePattern{
+        display: none;
+    }
+}
+
+@media screen and (max-width:632px) {
+        body{
+            overflow:auto;
+        }
+        .wraper{
+            margin-top: 33%;
+            width: 100vw;
+        }
+        #parent{
+        width: 100vw;
+        height: initial;
+        flex-direction: column;
+        align-items: center;
+    }
+    .leftSection .mobilePattern img {
+        width: 62vw;
+    } 
+    .mobilePattern{
+        display: block;
+        margin: 0 auto;
+    }
+    .leftSection{
+        width: 100%;
+        height: 40%;
+        display: flex;
+    }
+    .myTopWomanIllustration{
+        display: block;
+    }
+    .myTopWomanIllustration img{
+        width: 70vw;
+        position: absolute;
+        left: 11%;
+        top: 2%;
+        z-index: 3;
+    }
+    .secondImg{
+        display: none;
+    }
+    .bottomImg{
+        display: none;
+    }
+
+    .rightSection{
+        width: 100%;
+    }
+    .fullLine{
+        width: 100%;
+        font-size: 4vw;
+    }
+    .rightSection{
+        width: 80%;
+    }
+    hr{
+        width: 100%;
+    }
+    .topImg{
+        display: none;
+    }
+    .allAns{
+        width: 100%;
+        font-size: 3vw;
+    }
+    .mainText{
+        text-align: center;
+        font-size: 9vw;
+        margin: 0px auto;
+    }
+}
